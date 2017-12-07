@@ -13,6 +13,13 @@
         "php": ">=5.4.0",
         "toplan/phpsms": "~1.8"
     },
+    "repositories": [
+       {
+         "type": "vcs",
+         "url": "https://github.com/HectorLiu/phpsms"
+       }
+    ],
+
     "autoload": {
         "classmap": [
             "src/"
